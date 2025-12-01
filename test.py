@@ -27,7 +27,7 @@ Open the instagram.com and login with the given credentials.
 """
 browser = Browser()
 # Initialize the OpenAI chat model
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-5")
 agent = Agent(
     task=task,
     llm=llm,

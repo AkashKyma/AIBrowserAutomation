@@ -90,7 +90,7 @@ Log in to Instagram, scroll through the home feed, and leave comments on posts u
 browser = Browser()
 
 # Initialize the OpenAI chat model
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-5")
 
 agent = Agent(
     task=task,

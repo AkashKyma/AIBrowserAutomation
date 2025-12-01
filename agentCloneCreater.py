@@ -83,7 +83,7 @@ Very important behavior:
 
 # Initialize browser & model
 browser = Browser()
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-5")
 
 agent = Agent(
     task=task,
