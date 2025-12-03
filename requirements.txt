@@ -1,0 +1,11 @@
+# Core browser automation
+browser-use
+
+# Environment variables
+python-dotenv
+
+# Web automation
+selenium
+
+# HTTP requests
+requests
