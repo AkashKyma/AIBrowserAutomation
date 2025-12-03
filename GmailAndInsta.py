@@ -7,7 +7,7 @@ import os
 # CONFIG: INSTAGRAM LOGIN + LIKE & COMMENT ON PROFILE POSTS
 # -----------------------------------------
 
-INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME") or "edgar.navarro@suroscuraec.com"
+INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME") or "orjrndidj8277@gmail.com"
 INSTAGRAM_PASSWORD = os.getenv("INSTAGRAM_PASSWORD") or "Ruhani@123"
 
 INSTAGRAM_TARGET_PROFILE = os.getenv("INSTAGRAM_TARGET_PROFILE") or "instagram"
@@ -40,7 +40,7 @@ Target profile:
 2. Handle any popups (cookies, login dialogs, "Save Login Info", "Turn on Notifications", etc.) by closing or accepting them as needed.
 
 3. Check if the user is already logged in:
-   - If already logged in, continue to step 4.
+   - If already logged in, continue 5.
    - If not logged in:
      - Find the username input field (usually labeled "Phone number, username, or email" or similar).
      - Find the password input field.
@@ -73,7 +73,7 @@ Target profile:
 #    - “Verification code”
 #    - Any 6-digit input box for OTP
 
-5. IF OTP SCREEN APPEARS:
+4. IF OTP SCREEN APPEARS:
    - Try to attempt to automatically fetch or bypass the OTP.
    - Try to opening Gmail for OTP retrieval."
    - Open a NEW TAB.
@@ -88,7 +88,7 @@ Target profile:
         c) Copy the OTP
    -And Paste the OTP into Instagram Automatically.
 
-6. Detect success when:
+5. Detect success when:
    - Instagram home feed loads, OR
    - Profile icons appear, OR
    - Target profile page loads
@@ -96,7 +96,7 @@ Target profile:
 Then continue.
 
 --------------------------------------------------------
-### STEP 4 — NAVIGATE TO TARGET PROFILE
+### STEP 6 — NAVIGATE TO TARGET PROFILE
 --------------------------------------------------------
 7. Go to https://www.instagram.com/{INSTAGRAM_TARGET_PROFILE}/
 8. Ensure profile loads: profile picture, posts grid, etc.

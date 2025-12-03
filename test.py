@@ -8,6 +8,7 @@ load_dotenv()
 INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME", "")
 INSTAGRAM_PASSWORD = os.getenv("INSTAGRAM_PASSWORD", "")
 # List of positive comments to randomly choose from
+
 COMMENTS = [
     "Great post! :+1:",
     "Love this! :heart:",
@@ -20,6 +21,7 @@ COMMENTS = [
     "So inspiring!"
 ]
 # This prints the values to confirm what's being used (remove these in production)
+
 print(f"Username being used: {INSTAGRAM_USERNAME}")
 print(f"Password being used: {INSTAGRAM_PASSWORD}")
 task = f"""

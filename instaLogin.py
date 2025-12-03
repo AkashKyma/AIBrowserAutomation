@@ -8,7 +8,7 @@ import os
 # -----------------------------------------
 
 # Credentials (use env vars in real usage)
-INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME") or "jose.santana@suroscuraec.com"
+INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME") or "orjrndidj8277@gmail.com"
 INSTAGRAM_PASSWORD = os.getenv("INSTAGRAM_PASSWORD") or "Ruhani@123"
 
 # Target profile username (without @), e.g. "natgeo"
